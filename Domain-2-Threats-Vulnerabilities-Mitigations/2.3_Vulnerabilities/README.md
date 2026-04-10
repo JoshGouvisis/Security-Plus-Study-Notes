@@ -15,3 +15,9 @@ A vulnerability is a weakness in a system or its design that can be exploited by
 ## Vulnerability Research
 * **CVE (Common Vulnerabilities and Exposures):** A list of publicly disclosed cybersecurity vulnerabilities.
 * **CVSS (Common Vulnerability Scoring System):** A numerical score (0.0 to 10.0) representing the severity of a vulnerability.
+
+## 🔍 Vulnerability Analysis Tools
+* **Nessus/OpenVAS:** Network vulnerability scanners used to identify unpatched systems.
+* **Nmap:** A port scanner used to discover the attack surface (open ports and services).
+* **SIEM:** A tool for log aggregation and real-time analysis to find Indicators of Compromise (IoC).
+* **CVE:** The industry-standard list of publicly known security vulnerabilities.
