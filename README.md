@@ -1,6 +1,6 @@
 # 📚 CompTIA Security+ Study Notes (SY0-701)
 
-![Status](https://img.shields.io/badge/Status-In_Progress-orange?style=flat) ![CompTIA](https://img.shields.io/badge/CompTIA-Security+-red?style=flat) ![Domains](https://img.shields.io/badge/Domains-2_of_5-blue?style=flat)
+![Status](https://img.shields.io/badge/Status-In_Progress-orange?style=flat) ![CompTIA](https://img.shields.io/badge/CompTIA-Security+-red?style=flat) ![Domains](https://img.shields.io/badge/Domains-3_of_5-blue?style=flat)
 
 ## 📋 Overview
 
@@ -12,8 +12,8 @@ Personal study notes for the **CompTIA Security+ SY0-701** certification exam. N
 | :--- | :--- | :--- | :--- |
 | 1 | General Security Concepts | 12% | ✅ Complete |
 | 2 | Threats, Vulnerabilities & Mitigations | 22% | ✅ Complete |
-| 3 | Security Architecture | 18% | 🔄 In Progress |
-| 4 | Security Operations | 28% | ⌛ Not Started |
+| 3 | Security Architecture | 18% | ✅ Complete |
+| 4 | Security Operations | 28% | 🔄 In Progress |
 | 5 | Security Program Management & Oversight | 20% | ⌛ Not Started |
 
 ## 📂 Notes Structure
