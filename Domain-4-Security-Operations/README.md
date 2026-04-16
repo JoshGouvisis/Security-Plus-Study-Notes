@@ -6,7 +6,11 @@
 * Hardening & Asset Management
 * Log Management & Malicious Activity Indicators
 * Incident Response Lifecycle
-* Vulnerability Management & Digital Forensics
+* Vulnerability Management
+* Monitoring Tools & Digital Forensics
+
+## 🎯 Domain Overview
+Security Operations focuses on the practical, day-to-day management of an organization's security posture, ranging from hardening systems to responding to active threats and preserving evidence.
 
 ## 📝 Objective Progress
 - [x] 4.1 Apply common security techniques to compute resources.
@@ -23,5 +27,4 @@
 
 ## 📖 Resources
 * Professor Messer SY0-701
-* CompTIA Security+ Study Guide
 * [Back to Main README](../README.md)
