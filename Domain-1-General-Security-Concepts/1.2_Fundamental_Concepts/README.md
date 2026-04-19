@@ -1,17 +1,35 @@
-# 1.2 Fundamental Security Concepts
+## 1.2 - Fundamental Security Concepts
 
-These principles serve as the building blocks for assessing risk and implementing security solutions.
+### CIA Triad
 
-## The CIA Triad
-* **Confidentiality:** Protection of data from unauthorized disclosure through encryption and access controls.
-* **Integrity:** Ensuring data has not been altered or tampered with through hashing and digital signatures.
-* **Availability:** Ensuring systems are up and accessible through redundancy and maintenance.
+The three foundational principles of information security. Every security decision maps to one or more of these.
 
-## Core Principles
-* **Non-Repudiation:** Technical proof that a user cannot deny an action or a message they sent.
-* **AAA Framework:** Authentication (Identity verification), Authorization (Permissions), and Accounting (Logging).
+| Principle | Definition | Controls |
+|---|---|---|
+| Confidentiality | Information accessible only to authorized individuals | Encryption, access controls, MFA |
+| Integrity | Data stored and transmitted exactly as intended; any modification is detectable | Hashing, digital signatures, certificates |
+| Availability | Authorized users can access systems and data when needed | Redundancy, fault tolerance, patching |
 
-## Zero Trust Architecture
-* **Control Plane:** The layer where policy decisions are made and managed.
-* **Data Plane:** The layer where data travels and policies are enforced.
-* **Policy Enforcement Point (PEP):** The gatekeeper that monitors and secures the session between a subject and a resource.
+### Non-Repudiation
+
+Provides cryptographic proof that a message came from a specific sender and was not altered.
+
+| Component | Mechanism | What It Proves |
+|---|---|---|
+| Proof of integrity | Hash of the data | The data has not changed |
+| Proof of origin | Digital signature (created with sender's private key) | The message came from a specific sender |
+
+A hash alone proves integrity but does not identify the sender. A digital signature proves both. Non-repudiation requires both.
+
+### AAA Framework
+
+| Element | Definition |
+|---|---|
+| Identification | Who you claim to be, typically a username |
+| Authentication | Proving the claim using passwords, certificates, biometrics, or tokens |
+| Authorization | What you are permitted to access based on your verified identity |
+| Accounting | Logging what you did: login time, data accessed, resources used, logout time |
+
+#### Authenticating Devices
+
+Devices authenticate using digitally signed certificates issued by a trusted internal Certificate Authority (CA). Business processes such as VPN access and network admission control rely on device certificates.
